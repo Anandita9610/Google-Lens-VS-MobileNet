@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <title>Google Lens vs MobileNet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <h4 style="text-align: center;font-family: 'Lexend Tera', sans-serif;">
+                <span >CASE STUDY BETWEEN GOOGLE LENS AND MOBILENET </span>
+                <br><br>
+                GOOGLE LENS <img src="Google lens.png" style="width: 150px;">
+                <p>
+                    <b style="color:red;">VS</b>
+                </p>
+                <br>
+                <p class="btn btn-primary" style="font-size: 20px;">MobileNet</p>
+                
+            </h4>
+        </div>
+        <ol style="padding: 0px;">
+            <div class="test_image_and_result col-xs-12">
+                
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image - Pencil</b>
+                    <img src="pencil.jpg" class="img-responsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - Pencil
+                    <span> </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>MobileNet</b> - Drumstick
+                    <span> </span>
+                </h5>
+
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Result - Google Lens was much more accurate than MobileNet in this case.</h4>
+                    <hr>
+                    <h4> </h4>
+                </div>
+            </div>
+            <br><br>
+       
+
+            <div class="test_image_and_result col-xs-12">
+                
+                <li class="col-sm-4 col-xs-12" style="color: white;">
+                    <b>Test Image - Phone</b>
+                    <img src="phone.jpg" class="img-responsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - Phone
+                    <span> </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>MobileNet</b> - Mobile Phone
+                    <span> </span>
+                </h5>
+
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Result - In this case it was a tie. Both were accurate.</h4>
+                    <hr>
+                    <h4> </h4>
+                </div>
+                
+            </div>
+            <br>
+
+            <div class="test_image_and_result col-xs-12">
+                
+                <li class="col-sm-4 col-xs-12" style="color: white;">
+                    <b>Test Image - Rubix Cube</b>
+                    <img src="rubixcube.jpg" class="img-responsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - Rubix Cube
+                    <span> </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>MobileNet</b> - Honeycomb
+                    <span> </span>
+                </h5>
+
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Result -  Once again, Google Lens was much more accurate than MobileNet.</h4>
+                    <hr>
+                    <h4> </h4>
+                </div>
+            </div>
+            <br>
+            <div class="test_image_and_result col-xs-12">
+                
+                <li class="col-sm-4 col-xs-12" style="color: white;">
+                    <b>Test Image - Light Bulb</b>
+                    <img src="lightbulb.jpg" class="img-responsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - Light Bulb
+                    <span> </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>MobileNet</b> - Spotlight
+                    <span> </span>
+                </h5>
+
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Result - And again, Google Lens was much more accurate than MobileNet.</h4>
+                    <hr>
+                    <h4> </h4>
+                </div>
+            </div>
+            <br>
+            <div class="test_image_and_result col-xs-12">
+                
+                <li class="col-sm-4 col-xs-12" style="color: white;">
+                    <b>Test Image - Dry Erase Marker</b>
+                    <img src="dryerasemarker.jpg" class="img-responsive">
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS</b> - Dry Erase Marker
+                    <span> </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>MobileNet</b> - Microphone
+                    <span> </span>
+                </h5>
+
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Result - Google Lens wins!!!!!!</h4>
+                    <hr>
+                    <h4> </h4>
+                </div>
+            </div>
+            <br>
+
+        </ol>
+        
+       
+        
+        <div>
+            <p style="font-size: 25px;">
+                After getting all of the examples right Google Lens has won getting a 5/5 , while MobileNet only got a 1/5.
+            </p>
+        </div>
+     
+    </body>
+</html>
